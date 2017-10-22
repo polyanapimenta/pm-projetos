@@ -1,0 +1,38 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+    padding: 60px 40px 60px 100px;
+    background-image: url('../img/do.png');
+    background-repeat: no-repeat;
+    background-position: 40px center
+}
+li:hover{
+    background-color: #6e6e6e;
+}
+li.done{
+   background-color: #27ae60;
+   background-image: url('../img/done.png'); 
+}
+li.done:hover{
+    background-color: #52be7f;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-image: url('../img/right.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+}
+
