@@ -1,7 +1,5 @@
 cd "C:\Users\Polyana\Documents\Projetos\pm-projetos" 
-git status
-git add .
-git commit -m 'Inserindo-Modificando arquivos no repositorio'
-git status
 git pull origin master
+git add .
+git commit -m "Inicializando/Modificando arquivos no repositorio"
 git push origin master
