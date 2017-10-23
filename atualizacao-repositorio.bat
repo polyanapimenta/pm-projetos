@@ -22,3 +22,5 @@ echo --------------------------------------------------
 echo ** COMMIT REALIZADO.. UPPANDO AQUIVOS...
 echo --------------------------------------------------
 git push origin master
+timeout /t 15
+exit
