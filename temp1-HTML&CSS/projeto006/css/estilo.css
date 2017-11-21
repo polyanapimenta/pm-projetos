@@ -1,0 +1,60 @@
+/* configurações para layout mínimo de infinito..400px */
+@media only screen and (min-width: 400px) {
+
+    .conteudo {
+        width: 960px;
+        margin: 55px auto 55px auto;
+    }
+
+    .logo {
+        display: block;
+        margin: auto 0;
+    }
+    
+    .noticias {
+        width: 300px;
+        float: left;
+        padding-right: 20px; 
+        padding-top: 55px;
+        padding: 27.5px 20px 27.5px 0; 
+    }
+
+    .noticias p {
+        font-size: 20px;
+    }
+}
+/* configurações para layout máximo de 0..399px */
+@media only screen and (max-width: 399px) {
+
+    body {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .logo {
+        padding-bottom: 15px;
+        padding-top: 35px;
+    }
+    .noticias {
+        width: 100%;
+    }
+    .noticias p {
+        text-align: center;
+        font-size: 16px;
+        text-align: left;
+        margin: 20px auto 30px 20px;
+        
+    }
+
+}
+/* configurações para todos os tamanhos de layouts*/
+.noticias p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+
