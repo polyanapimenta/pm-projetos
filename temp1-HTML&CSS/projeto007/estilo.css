@@ -1,0 +1,181 @@
+html {
+    margin: 0;
+    padding: 0;  
+}
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(img/fundo-topo.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+header h1 {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 80px;
+}
+header span {
+    visibility: hidden;
+}
+header nav {
+    position: absolute;
+    top: 20px;
+    left: 490px;
+}
+header nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 95px;
+}
+header nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+header nav ul li:last-child {
+    border: 1px solid #fff;
+    padding: 15px 42px 15px 42px;
+    border-radius: 3px;
+}
+#topo {
+    height: 600px;
+    text-align: center;
+    color: #fff;
+}
+.aling-left {
+    width: 500px;
+}
+#topo h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 135px 0 0 0;
+}
+#topo p {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+button {
+    background-color: #ff3d7f;
+    border-color: transparent;
+    border-bottom-color: #cc5490;
+    border-bottom-width: 5px;
+    border-radius: 3px;
+
+    width:  460px;
+    height: 94px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    margin: 0;
+}
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+#conheca {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.aling-right {
+    width: 490px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#conheca img {
+    height: 397px;
+    width: 380px;
+}
+#conheca button {
+    width: 290px;
+    height: 73px;
+    font-size: 30px;
+}
+#conheca h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px;  
+}
+#conheca p {
+    font-size: 23px;
+    font-weight: 300;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+
+#depoimento {
+    background-color: #ebe8fb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    border-top: 3px solid #4e388a;
+}
+#depoimento p {
+    font-size: 23px;
+    font-weight: 300;
+    width: 870px;
+    margin-bottom: 10px;
+}
+#depoimento span {
+    font-weight: 700;
+}
+
+#convite {
+    background-image: url(img/fundo-convite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 424px;
+    text-align: center;
+}
+form {
+    margin: 150px 0 0 90px;
+    padding: 0 80px 0 0;
+    width: 600px;
+    height: 120px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    float: left;
+}
+input[type=email] {
+    border: none;
+    font-size: 24px;
+    color: #4a4a4a;
+    width: 500px;
+    height: 120px;
+    background-color: transparent;
+}
+input[type=submit]{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    margin-top: 32px;
+    border: none;
+    background-color: transparent;
+    background-image: url(img/botao-convite.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    color: transparent;
+}
+footer {
+    background-color: #2a0157;
+    height: 90px;
+    border-top: 3px solid #fff;
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    font-size: 18px;
+    font-weight: 300;
+}
