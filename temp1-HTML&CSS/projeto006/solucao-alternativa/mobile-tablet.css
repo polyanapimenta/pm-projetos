@@ -1,0 +1,10 @@
+/* Adaptações layout - tablet */
+.container {
+    width: 640px;
+    margin: 0 auto;
+}
+.card {
+    width: 300px;
+    padding-right: 20px;
+    float: left;
+}
